@@ -10,3 +10,4 @@ export type {
   TypePage_help_center_articleFields,
 } from './TypePage_help_center_article';
 export type { TypePage_landing, TypePage_landingFields } from './TypePage_landing';
+export type { TypePage_tutorial, TypePage_tutorialFields } from './TypePage_tutorial';

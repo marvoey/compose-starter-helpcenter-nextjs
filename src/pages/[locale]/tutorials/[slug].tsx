@@ -20,6 +20,8 @@ const Tutorial = ({ page }: { page: TypePage }) => {
     return <ErrorPage statusCode={404} />;
   }
 
+  // console.log('page:', page.fields.content.fields);
+
   const { difficulty, timeRequired, explanation, repoLink } = page.fields.content.fields;
 
   /* Visualize the data as you see fit, sky is the limit */
